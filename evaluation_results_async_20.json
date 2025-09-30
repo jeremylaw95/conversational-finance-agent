@@ -1,0 +1,82 @@
+{
+  "evaluation_summary": {
+    "model": "gpt-4o",
+    "timestamp": "2025-09-30T16:35:42.863285",
+    "total_conversations": 20,
+    "total_questions": 63,
+    "performance_category": "needs_improvement",
+    "overall_performance": {
+      "exact_match_rate": "0.619",
+      "numerical_accuracy": "0.676",
+      "conversation_success_rate": "0.300",
+      "avg_response_time": "10.549s",
+      "self_correction_effectiveness": "0.000"
+    }
+  },
+  "detailed_metrics": {
+    "accuracy_breakdown": {
+      "exact_match_rate": 0.6190476190476191,
+      "numerical_accuracy": 0.6761904761904762,
+      "gap_analysis": 0.05714285714285716
+    },
+    "conversation_analysis": {
+      "success_rate": 0.3,
+      "avg_turns_per_conversation": 3.15,
+      "multi_turn_complexity": "medium"
+    },
+    "response_time_analysis": {
+      "avg_response_time": 10.548856546008398,
+      "performance_rating": "slow"
+    }
+  },
+  "error_analysis": {
+    "summary": "24 errors across 63 questions (38.1% error rate)",
+    "error_distribution": {
+      "lookup_error": 8.333333333333332,
+      "calculation_error": 25.0,
+      "reference_resolution_error": 33.33333333333333,
+      "percentage_error": 33.33333333333333
+    },
+    "primary_failure_mode": {
+      "type": "reference_resolution_error",
+      "count": 8,
+      "description": "Unable to resolve pronouns or contextual references"
+    },
+    "error_patterns": [
+      "lookup_error: 2 errors (8.3% of all errors)",
+      "calculation_error: 6 errors (25.0% of all errors)",
+      "reference_resolution_error: 8 errors (33.3% of all errors)",
+      "percentage_error: 8 errors (33.3% of all errors)"
+    ],
+    "error_rate": 0.38095238095238093
+  },
+  "strengths_and_limitations": {
+    "key_strengths": [
+      "System demonstrates basic functionality"
+    ],
+    "major_limitations": [
+      "Struggles with multi-turn conversation coherence (30.0% success)",
+      "Slow response times (10.5s) may impact user experience",
+      "Percentage calculation issues detected - critical for financial analysis",
+      "Multiple calculation errors - arithmetic accuracy needs improvement",
+      "Difficulty resolving conversational references - context handling needs work"
+    ],
+    "critical_issues": [
+      "Percentage calculation failures - core financial analysis capability"
+    ]
+  },
+  "recommendations": [
+    "CRITICAL: Fix percentage calculation prompts and parsing logic",
+    "Enhance reference resolution in conversation prompts",
+    "Add more calculation examples to few-shot prompts",
+    "Improve conversation context compression and management",
+    "Strengthen self-correction prompting techniques",
+    "Optimize prompt length to improve response times"
+  ],
+  "additional_context": {
+    "num_samples": 20,
+    "split": "dev",
+    "successful_evaluations": 20,
+    "total_attempted": 20
+  }
+}
