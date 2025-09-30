@@ -95,4 +95,6 @@ I used Claude (Anthropic's AI assistant) extensively throughout this project as 
 
 **Code Review and Refactoring**: Claude provided suggestions for improving code organization, adding rate limiting functionality, and ensuring the codebase followed professional development standards.
 
+**Research and Context Building**: I used ChatGPT to summarize recent papers related to the original ConvFinQA work, helping me understand developments in financial document QA and multi-hop reasoning since 2022. This research informed my decision to pursue a prompt-first approach rather than simply reimplementing the original paper's retrieval-based system with updated models.
+
 The collaboration was transparent and iterative - I would describe problems, share code snippets, and work through solutions together. Claude's contributions were significant in achieving the 61.9% accuracy and building a production-quality evaluation framework. This report itself was structured and refined with Claude's assistance to ensure clarity and completeness.
