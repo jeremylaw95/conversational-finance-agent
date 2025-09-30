@@ -12,7 +12,7 @@ class ConvFinQAConfig:
     
     # API Configuration
     OPENAI_API_KEY: Optional[str] = os.getenv("OPENAI_API_KEY") or os.getenv("OPEN_AI_API_KEY")
-    DEFAULT_MODEL: str = "gpt-5"
+    DEFAULT_MODEL: str = "gpt-4o"
     MAX_TOKENS: int = 1000
     TEMPERATURE: float = 0.1
     
